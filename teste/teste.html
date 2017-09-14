@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css" />
+</head>
+<body>
+    
+    <div class="form">
+        <div class="input-control atual">
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome" />
+        </div>
+        <div class="input-control esconder">
+            <input type="number" id="saldoAtual" name="saldoAtual" placeholder="Insira seu saldo atual (apenas números)" />
+        </div>
+        <div class="input-control esconder">
+            <input type="number" id="saldoSemanal" name="saldoSemanal" placeholder="Insira seu saldo mensal (apenas números)" />
+        </div>
+        <div class="input-control esconder">
+            <input type="number" id="quantidadeSemanas" name="quantidadeSemanas" placeholder="Insira a quantidade de semanas que deve ser feito o orçamento" />
+        </div>
+        
+        <button class="anterior remover">Anterior</button>
+        <button class="confirmar remover">Confirmar</button>
+        <button class="proximo">Proximo</button>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

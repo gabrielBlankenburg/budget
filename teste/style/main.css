@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    margin: 0;
+    font-size: 140%;
+}
+
+/* Inputs e botoes de formulario */
+.form{
+    position: relative;
+    font-size: 2em;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+.form .input-control, .form button{
+    opacity: .8;
+}
+
+/* Inputs */
+.input-control{
+    background-color: #939292;
+    position: absolute;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+input{
+    margin: 0 auto;
+    background-color: #dbdbdb;
+    font-size: 1em;
+    padding: 1%;
+    width: 90%;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid #c1bfbf;
+}
+
+
+/* Botoes do input */
+.anterior, .proximo, .confirmar{
+    background-color: #ceccc8;
+    position: absolute;
+    bottom: 10vh;
+    border: none;
+    padding: .5em 1.5em; 
+    font-size: .7em;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.proximo, .confirmar{
+    right: 3%;
+    background-color: #1eb716;
+    color: white;
+}
+
+.anterior{
+    left: 3%;
+}
+
+
+/* Esconder e remover */
+.esconder{
+    visibility: hidden;
+}
+
+.remover{
+    display: none;
+}
